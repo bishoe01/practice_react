@@ -8,7 +8,7 @@ function Main(props) {
                 <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam omnis fugiat amet nisi voluptatum optio provident harum doloribus consectetur corrupti?</span></p>
                 <button className={styles.btn}>Show More</button>
             </div>
-            <img className={styles.img} src="img/iphone.png" alt="" />
+            <img className={styles.img} src="/img/iphone.png" alt="" />
         </section>
     );
 }
