@@ -5,6 +5,7 @@ import Main from './main/main';
 import Middle from './middle/middle';
 import Service from './service_/service';
 import Portfolio from './portfolio/portfolio';
+import { Button } from 'react-bootstrap';
 
 function App() {
   return (
