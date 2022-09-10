@@ -1,42 +1,47 @@
-.section{
-    display: flex;
-    width: 80%;
-    height: 30vh;
-    align-items: center;
-    margin: 0 auto;
-    background-color: white;
-    border-radius: 20px;
-    transform: translateY(100px);
+.section {
+  display: flex;
+  width: 80%;
+  height: 30vh;
+  align-items: center;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+  margin-top: 100px;
 }
-.leftContainer{
-    display: flex;
-    flex-grow: 2;
-    width: 150px;
-    height: 150px;
-    border-right: 2px solid lightgray;
 
+.leftContainer {
+  display: flex;
+  flex-grow: 2;
+  height: 150px;
+  border-right: 2px solid lightgray;
 }
-.avatar{
-    border-radius: 30px;
-    margin: 0 40px;
+
+.avatar {
+  width: 27%;
+  border-radius: 30px;
+  margin: 0 40px;
 }
-.rightContainer{
-    display: flex;
-    width: 150px;
-    height: 150px;
-    align-items: center;
-    padding-left: 50px;
-    flex-grow: 1;
+
+.rightContainer {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  padding-left: 50px;
+  flex-grow: 1;
 }
-.location{
-    color: skyblue;
-    margin-bottom: 3px;
+
+.location {
+  color: skyblue;
+  margin-bottom: 3px;
 }
-.btn{
-    width: 80px;
-    height: 30px;
-    border-radius: 5px;
-    border: none;
-    color: white;
-    background-color: skyblue;
-}
+
+.btn {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: skyblue;
+}/*# sourceMappingURL=profile.module.css.map */
